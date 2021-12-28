@@ -1,5 +1,7 @@
 /** @format */
 
+console.clear();
+
 const Client = require("./structures/Client.js");
 
 const { existsSync, copyFileSync, writeFileSync } = require("fs");
